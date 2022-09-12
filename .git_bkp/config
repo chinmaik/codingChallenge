@@ -1,0 +1,24 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/chinmaik/GiantBombCodeChallenge.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = github1
+	merge = refs/heads/master
+[remote "github"]
+	url = https://github.com/chinmaik/GiantBombChallenge.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[user]
+	name = Chinmai Kulkarni
+[remote "github_"]
+	url = https://github.com/chinmaik/GiantBombCodeChallenge.git
+	fetch = +refs/heads/*:refs/remotes/github_/*
+[remote "github1"]
+	url = https://github.com/chinmaik/GiantBombChallenge.git
+	fetch = +refs/heads/*:refs/remotes/github1/*
